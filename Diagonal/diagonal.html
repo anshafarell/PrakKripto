@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Diagonal Cipher</title>
+</head>
+<body>
+    <header>
+        <h1>Diagonal Cipher</h1>
+    </header>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="text">Text :</label></td>
+                <td><textarea id="text" cols="50" rows="10" style="height:40em; height:15em"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="key">Key :</label></td>
+                <td><input type="text" id="key" style="width:10em"></td>
+            </tr>
+            <tr>
+                <td><label for="padding">Padding :</label></td>
+                <td><input type="text" id="padding" style="width:10em"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="encrypt();">Encrypt</button>
+                    <button onclick="decrypt();">Decrypt</button>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hasil">Hasil :</label></td>
+                <td><p id="hasil"></p></td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="diagonal.js"></script>
+</body>
+</html>
